@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\Codefellows\401\Lab02-UnitTesting\Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM\obj\Debug\netcoreapp2.1\Lab02-UnitTesting-ATM.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Codefellows\401\Lab02-UnitTesting\Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM\obj\Debug\netcoreapp2.1\Lab02-UnitTesting-ATM.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Codefellows\401\Lab02-UnitTesting\Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM\obj\Debug\netcoreapp2.1\Lab02-UnitTesting-ATM.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Codefellows\401\Lab02-UnitTesting\Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM\obj\Debug\netcoreapp2.1\Lab02-UnitTesting-ATM.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Codefellows\401\Lab02-UnitTesting\Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM\bin\Debug\netcoreapp2.1\Lab02-UnitTesting-ATM.deps.json
+C:\Users\Admin\Desktop\Codefellows\401\Lab02-UnitTesting\Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM\bin\Debug\netcoreapp2.1\Lab02-UnitTesting-ATM.runtimeconfig.json
+C:\Users\Admin\Desktop\Codefellows\401\Lab02-UnitTesting\Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM\bin\Debug\netcoreapp2.1\Lab02-UnitTesting-ATM.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Codefellows\401\Lab02-UnitTesting\Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM\bin\Debug\netcoreapp2.1\Lab02-UnitTesting-ATM.dll
+C:\Users\Admin\Desktop\Codefellows\401\Lab02-UnitTesting\Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM\bin\Debug\netcoreapp2.1\Lab02-UnitTesting-ATM.pdb
+C:\Users\Admin\Desktop\Codefellows\401\Lab02-UnitTesting\Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM\obj\Debug\netcoreapp2.1\Lab02-UnitTesting-ATM.dll
+C:\Users\Admin\Desktop\Codefellows\401\Lab02-UnitTesting\Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM\obj\Debug\netcoreapp2.1\Lab02-UnitTesting-ATM.pdb

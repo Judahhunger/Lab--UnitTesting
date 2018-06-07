@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab02-UnitTesting-ATM", "Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM.csproj", "{C7B5E91F-C0DB-47B0-908E-8708E511433E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest02Lab", "XUnitTest02Lab\XUnitTest02Lab.csproj", "{1AE16142-8769-4469-8B5A-854D32F71B19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7B5E91F-C0DB-47B0-908E-8708E511433E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B5E91F-C0DB-47B0-908E-8708E511433E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B5E91F-C0DB-47B0-908E-8708E511433E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B5E91F-C0DB-47B0-908E-8708E511433E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE16142-8769-4469-8B5A-854D32F71B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE16142-8769-4469-8B5A-854D32F71B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE16142-8769-4469-8B5A-854D32F71B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE16142-8769-4469-8B5A-854D32F71B19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B37B9559-701B-4C8C-9614-648BB0B1F5E7}
+	EndGlobalSection
+EndGlobal
