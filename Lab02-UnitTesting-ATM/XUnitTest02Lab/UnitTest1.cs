@@ -1,6 +1,6 @@
 using System;
 using Xunit;
-using Lab02_UnitTesting_ATM;
+using Lab02UnitTestingATM;
 
 
 namespace XUnitTest02Lab

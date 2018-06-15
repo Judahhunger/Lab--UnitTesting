@@ -1678,17 +1678,17 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "Lab02-UnitTesting-ATM/1.0.0": {
+      "Lab02UnitTestingATM/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Microsoft.NETCore.App": "2.1.0"
         },
         "compile": {
-          "bin/placeholder/Lab02-UnitTesting-ATM.dll": {}
+          "bin/placeholder/Lab02UnitTestingATM.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Lab02-UnitTesting-ATM.dll": {}
+          "bin/placeholder/Lab02UnitTestingATM.dll": {}
         }
       }
     }
@@ -5711,15 +5711,15 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Lab02-UnitTesting-ATM/1.0.0": {
+    "Lab02UnitTestingATM/1.0.0": {
       "type": "project",
-      "path": "../Lab02-UnitTesting-ATM/Lab02-UnitTesting-ATM.csproj",
-      "msbuildProject": "../Lab02-UnitTesting-ATM/Lab02-UnitTesting-ATM.csproj"
+      "path": "../Lab02-UnitTesting-ATM/Lab02UnitTestingATM.csproj",
+      "msbuildProject": "../Lab02-UnitTesting-ATM/Lab02UnitTestingATM.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Lab02-UnitTesting-ATM >= 1.0.0",
+      "Lab02UnitTestingATM >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 15.7.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "xunit >= 2.3.1",
@@ -5756,8 +5756,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\Codefellows\\401\\Lab02-UnitTesting\\Lab02-UnitTesting-ATM\\Lab02-UnitTesting-ATM\\Lab02-UnitTesting-ATM.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\Codefellows\\401\\Lab02-UnitTesting\\Lab02-UnitTesting-ATM\\Lab02-UnitTesting-ATM\\Lab02-UnitTesting-ATM.csproj"
+            "C:\\Users\\Admin\\Desktop\\Codefellows\\401\\Lab02-UnitTesting\\Lab02-UnitTesting-ATM\\Lab02-UnitTesting-ATM\\Lab02UnitTestingATM.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\Codefellows\\401\\Lab02-UnitTesting\\Lab02-UnitTesting-ATM\\Lab02-UnitTesting-ATM\\Lab02UnitTestingATM.csproj"
             }
           }
         }
