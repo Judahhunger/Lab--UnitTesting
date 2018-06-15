@@ -1,26 +1,35 @@
 ﻿using System;
 
-namespace Lab02_UnitTesting_ATM
+ namespace Lab02UnitTestingATM
 {
     public class Program
     {
         //Global Vars
-        static double currentBalance = 5000;
-        static bool keepOpen = true;
+        public static double currentBalance = 5000;
+        public static bool keepOpen = true;
 
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             // keeps menu open until exit is given.
-            while (keepOpen)
+            try
             {
-                MenuNav();
+                while (keepOpen)
+                {
+                    MenuNav();
+                }
             }
+            finally
+            {
+                Console.WriteLine("Don't Forget your receipt.");
+                Console.ReadLine();
+            }
+           
             
         }
        
 
         //shows text to screen so user can navigate and choose what to do until user chooses exit.
-        static bool MenuNav()
+        public static bool MenuNav()
         {
             Console.Clear();
             Console.WriteLine("Welcome to your acount. Select an option by pressing the number on the key pad.");
@@ -30,38 +39,51 @@ namespace Lab02_UnitTesting_ATM
             Console.WriteLine("4) Exit");
 
             string userNavSelect = Console.ReadLine();
-            
-            if (userNavSelect == "1")
+            try
             {
-                ViewCurrentBalance();
+                if (userNavSelect == "1")
+                {
+                    ViewCurrentBalance();
+                }
+                else if (userNavSelect == "2")
+                {
+                    Console.Clear();
+                    Console.WriteLine("How much would you like to take out?");
+                    double amountToTakeOut = Double.Parse(Console.ReadLine());
+
+                    currentBalance = WidthdrawMony(currentBalance, amountToTakeOut);
+
+                }
+                else if (userNavSelect == "3")
+                {
+                    Console.Clear();
+                    Console.WriteLine("How much would you like to put in?");
+                    double amountToPutIn = Double.Parse(Console.ReadLine());
+
+                    currentBalance = DepositMoney(currentBalance, amountToPutIn);
+                }
+                else if (userNavSelect == "4")
+                {
+                    keepOpen = false;
+                    return keepOpen;
+                }
+
+
+                return true;
             }
-            else if (userNavSelect == "2")
+            catch (Exception)
             {
-                Console.Clear();
-                Console.WriteLine("How much would you like to take out?");
-                double amountToTakeOut = Double.Parse(Console.ReadLine());
 
-                currentBalance = WidthdrawMony(currentBalance, amountToTakeOut);
-               
+                Console.WriteLine("Please enter a valid number");
+                Console.Read();
+                return true;
             }
-            else if (userNavSelect == "3")
-            {
-                Console.Clear();
-                Console.WriteLine("How much would you like to put in?");
-                double amountToPutIn = Double.Parse(Console.ReadLine());
-
-                currentBalance = DepositMoney(currentBalance, amountToPutIn);
-            }
-            else if(userNavSelect == "4")
-            {
-                keepOpen = false;
-                return keepOpen;
-            }
-
-
-            return true;
+           
         }
 
+        /// <summary>
+        /// views for current balance as $ amount.
+        /// </summary>
         public static void ViewCurrentBalance()
         {
             string currentBalanceString = String.Format("{0:C}", currentBalance);
@@ -70,21 +92,56 @@ namespace Lab02_UnitTesting_ATM
             Console.WriteLine($"Your current balance is {currentBalance}");
             Console.ReadLine();
         }
-
+       
+        /// <summary>
+        /// Widthdraws from balance if the widthdrawed amount will not make balance go negitive.
+        /// </summary>
+        /// <param name="moneyOnHand"></param>
+        /// <param name="moneyGoingOut"></param>
+        /// <returns>new balance or if nothing taken out old balance.</returns>
         public static double WidthdrawMony(double moneyOnHand, double moneyGoingOut)
         {
-            while (moneyOnHand >= moneyGoingOut && moneyOnHand > 0)
+            try
             {
-                double afterWidthdraw = moneyOnHand - moneyGoingOut;
-                return afterWidthdraw;
-            }
+                while (moneyOnHand >= moneyGoingOut && moneyOnHand > 0)
+                {
+                    double afterWidthdraw = moneyOnHand - moneyGoingOut;
+                    return afterWidthdraw;
+                }
 
-            return moneyOnHand;
+                return moneyOnHand;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+          
         }
 
+        /// <summary>
+        /// Adds to balance if number is positive
+        /// </summary>
+        /// <param name="moneyOnHand"></param>
+        /// <param name="moneyGoingIn"></param>
+        /// <returns>new balance with added money or if input is negitive old balance.</returns>
         public static double DepositMoney(double moneyOnHand, double moneyGoingIn)
         {
-            return moneyOnHand + moneyGoingIn;
+            try
+            {
+                while (moneyGoingIn > 0)
+                {
+                    return moneyOnHand + moneyGoingIn;
+                }
+                return moneyOnHand;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+           
+            
         }
     }
 }

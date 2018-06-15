@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab02-UnitTesting-ATM", "Lab02-UnitTesting-ATM\Lab02-UnitTesting-ATM.csproj", "{C7B5E91F-C0DB-47B0-908E-8708E511433E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab02UnitTestingATM", "Lab02-UnitTesting-ATM\Lab02UnitTestingATM.csproj", "{C7B5E91F-C0DB-47B0-908E-8708E511433E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest02Lab", "XUnitTest02Lab\XUnitTest02Lab.csproj", "{1AE16142-8769-4469-8B5A-854D32F71B19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest02Lab", "XUnitTest02Lab\XUnitTest02Lab.csproj", "{1AE16142-8769-4469-8B5A-854D32F71B19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
